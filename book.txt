@@ -9,3 +9,9 @@ Untracked files:
         book.txt
 
 nothing added to commit but untracked files present (use "git add" to track)
+
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(I accidentally pushed book.txt to the repo already)
