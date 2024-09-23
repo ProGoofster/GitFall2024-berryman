@@ -15,3 +15,11 @@ Your branch is up to date with 'origin/main'.
 
 nothing to commit, working tree clean
 (I accidentally pushed book.txt to the repo already)
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.       
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)      
+        new file:   answers.txt

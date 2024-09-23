@@ -1,0 +1,43 @@
+(a) How many commits have been done to the repository?
+12
+
+(b) When was the .gitignore file modified last?
+Sun Sep 22 17:18:34 2024 -0500
+
+(c) What command(s) could you use to obtain the list of files that were in a
+repository on a specific date e.g., Files in the repository on 06/01/2020
+git rev-list -n 1 --before="2020-06-02"
+
+(d) How many times was each of the files inside the src folder modified?
+
+
+(e) How many addition operations were involved in the creation of the file RE-
+MOVE.txt?
+
+
+(f) What is the difference between git log and git status?
+
+
+(g) What does the command shortlog do?
+
+
+(h) What command would you use to list the commits in which the file “Main.java”
+was part of the committed files?
+git rev-list -n 1 --before="2020-06-01" main 
+git ls-tree -r --name-only (commit from last command)
+
+(i) What command would you use to list the commits in which the file “Main.java”
+was part of the committed files, including renames and the diffs of each com-
+mit?
+git log --follow -- Main.java
+
+(j) What command would you use to list the commits whose commit message
+contains the word “account”?
+git log --grep="account" (-i if you want it to be case-insensitive)
+
+(k) What command would you use to see the commits made by a specific person?
+git log --author=
+
+(l) What command would you use to see the commits made by “Lauren” between
+01/05/2014 and 01/14/2024?
+git log --author="Lauren" --after="2014-01-05" --before="2024-01-14"
